@@ -1,0 +1,412 @@
+/* adding the screensize for mobile phone and tablette */
+@media (max-width: 760px){
+    /*
+    this is a CSS comment
+    shortcut for adding the comment control + / or command + /
+    */
+    /* making the logo background transparent and putting it in the right place */
+ .logo{
+      
+        background-color:transparent;
+        width: 70px;
+        height: 70px;
+        position: relative;;
+        left: 200px;
+        top: 50px;
+    }
+    
+        
+    p{
+        color: #ff8480;
+        margin: 10px;
+        font-family: montserrat-ExtraLight;
+        font-size: 11px;
+        font-weight: lighter;
+        float: right;
+        
+    }
+    
+      /* resize a change olace of the body */
+          
+          
+          body{
+            width:auto;
+            background-image: url("../images/scooter.svg");
+            background-repeat: no-repeat;
+            width: 500px;
+            
+            
+        
+           /* configuring the palette and it's parts*/
+          }
+          .ero{
+              width: 250px;
+              max-width: 500px;
+              padding:30px;
+              background:#f7f7ff;
+              box-shadow: 10px 10px 10px 5px rgba(0,0,0,.5);
+              float:right;
+              margin-left: 50px;
+              margin-bottom: 80px;
+              border-radius: 30px;
+          }
+          .wor{
+              background:#57eeab;
+              color:#333131;
+              align-items: center;
+              width: 200px;
+              font-size:15px ;
+              font-family: montserrat-bold;
+              position: relative;
+              left: 10px;
+
+          }
+          .war{
+            background:#ff8480;
+            color:#f7f7ff;
+            align-items: center;
+            width: 200px;
+            font-size:15px ;
+            font-family: montserrat-bold;
+            border-radius: 30px;
+
+          }
+          .social{
+            border-radius: 30px;
+              
+             
+          }
+          /* cinfiguring the info section pallete */
+         .toto{
+color: #333131;
+background:lightgray;
+padding:5px;
+width: 200px;
+font-weight: lighter;
+border: 0px;
+margin: 5px;
+border-radius: 30px;
+         }
+         .tata{
+            color: #333131;
+background:lightgray;
+padding:5px;
+width: 200px;
+font-weight: lighter;
+border: 0px;
+margin: 5px;
+border-radius: 30px;
+   }
+ .titi{
+    color: #333131;
+    background:lightgray;
+    padding:5px;
+    width: 200px;
+    font-weight: lighter;
+    border: 0px;
+    margin: 5px;   
+    border-radius: 30px;              
+               }
+     .tutu{
+        color: #333131;
+        background:lightgray;
+        padding:5px;
+        width: 200px;
+        font-weight: lighter;
+        border: 0px;
+        margin: 5px;  
+        border-radius: 30px;                     
+             }
+         /* configuring the headings  */
+    h1{
+        color:#333131;
+        height:60px;
+        padding: 50px;
+        align-items: center;
+        width: 150px;
+        font-size:35px ;
+        font-family: montserrat-bold;
+        position: relative;
+        left: 170px;
+    }
+         
+    h2{
+        color: #333131;
+        padding-top: 20px;
+        margin: 10px;
+        font-family: montserrat-ExtraLight;
+        font-size: 14px;
+        width: 190px;
+        font-weight: lighter;
+        margin: 30px;
+        float: right;
+        position: relative;
+        right: 55px;
+    
+    }
+    h3{ color:#333131;
+        height:60px;
+        align-items: center;
+        font-size:25px ;
+        font-family: montserrat-bold;
+
+    }
+    h4{
+        color: #333131;
+        padding-top: 20px;
+        margin: 10px;
+        font-family: montserrat-ExtraLight;
+        font-size: 11px;
+        font-weight: lighter;
+
+    }
+    h5{
+        color: #333131;
+        padding-top: 20px;
+        margin: 10px;
+        font-family: montserrat-ExtraLight;
+        font-size: 11px;
+        font-weight: lighter;
+
+    }
+    h6{
+         color:#333131;
+        align-items: center;
+        font-size:15px ;
+        font-family: montserrat-bold;
+        padding-left:50px;
+    }
+    h7 {
+        color: #333131;
+        font-family: montserrat-ExtraLight;
+        font-size: 15px;
+        font-weight: lighter;
+        padding-left:50px ;
+
+
+    }
+        /* styling the footer */
+    footer {
+        display: block;
+        width: 250px;
+              padding:30px;
+              background:#fffd8c;
+              border-radius: 30px;
+              float:right;
+              
+        
+        
+        
+        
+    }
+     
+    
+    /* styling the send botton */
+    button{
+        border: 0px;
+        height: 30px;
+        font-size: 20px;
+        margin-top:20px;
+        margin-bottom: 20px;
+        border-radius: 30px;
+    }
+    
+}
+    /* adding media query for screen 760px and above */
+    @media (min-width: 760px) and (max-width: 1500px){
+    
+       
+        .logo{
+      
+            background-color:transparent;
+            width: 60px;
+            height: 60px;
+            position: relative;
+            
+        }
+        
+            
+        p{
+            color: #ff8480;
+            margin: 10px;
+            font-family: montserrat-ExtraLight;
+            font-size: 11px;
+            font-weight: lighter;
+            float: right;
+            position: relative;
+           bottom: 33px;
+    right: 50px;
+        }
+        /* config the header */
+        
+          /* resize a change olace of the main */
+              
+              
+              body{
+                 
+                width:auto;
+                background-image: url("../images/scooter.svg");
+                background-repeat: no-repeat;
+                
+            
+               
+              }
+              .ero{
+                  width: 350px;
+                  max-width: 500px;
+                  padding:30px;
+                  background:#f7f7ff;
+                  box-shadow: 10px 10px 10px 5px rgba(0,0,0,.5);
+                  float:right;
+                  margin-bottom: 50px;
+                  margin-right: 50px;
+                  border-radius: 30px;
+              }
+              .wor{
+                  background:#57eeab;
+                  color:#333131;
+                  align-items: center;
+                  width: 300px;
+                  font-size:15px ;
+                  font-family: montserrat-bold;
+                  position: relative;
+                  left: 10px;
+    
+              }
+              .war{
+                background:#ff8480;
+                color:#f7f7ff;
+                align-items: center;
+                width: 200px;
+                font-size:15px ;
+                font-family: montserrat-bold;
+    
+              }
+              .social{
+                  float:right;
+                  border-radius: 30px;
+              }
+             .toto{
+    color: #333131;
+    background:lightgray;
+    padding:5px;
+    width: 300px;
+    font-weight: lighter;
+    border: 0px;
+    margin: 5px;
+    border-radius: 30px;
+             }
+             .tata{
+                color: #333131;
+    background:lightgray;
+    padding:5px;
+    width: 300px;
+    font-weight: lighter;
+    border: 0px;
+    margin: 5px;
+    border-radius: 30px;
+       }
+     .titi{
+        color: #333131;
+        background:lightgray;
+        padding:5px;
+        width: 300px;
+        font-weight: lighter;
+        border: 0px;
+        margin: 5px; 
+        border-radius: 30px;                
+                   }
+         .tutu{
+            color: #333131;
+            background:lightgray;
+            padding:5px;
+            width: 300px;
+            font-weight: lighter;
+            border: 0px;
+            margin: 5px;  
+            border-radius: 30px;                     
+                 }
+              
+        h1{
+            color:#333131;
+            height:60px;
+            padding: 50px;
+            align-items: center;
+            width: 250px;
+            font-size:35px ;
+            font-family: montserrat-bold;
+        }
+             
+        h2{
+            color: #333131;
+            padding-top: 20px;
+            margin: 10px;
+            font-family: montserrat-ExtraLight;
+            font-size: 11px;
+            width: 300px;
+            font-weight: lighter;
+        
+        }
+        h3{ color:#333131;
+            height:60px;
+            align-items: center;
+            font-size:25px ;
+            font-family: montserrat-bold;
+    
+        }
+        h4{
+            color: #333131;
+            padding-top: 20px;
+            margin: 10px;
+            font-family: montserrat-ExtraLight;
+            font-size: 11px;
+            font-weight: lighter;
+    
+        }
+        h5{
+            color: #333131;
+            padding-top: 20px;
+            margin: 10px;
+            font-family: montserrat-ExtraLight;
+            font-size: 11px;
+            font-weight: lighter;
+    
+        }
+        h6{
+             color:#333131;
+            align-items: center;
+            font-size:15px ;
+            font-family: montserrat-bold;
+            padding-left:50px;
+        }
+        h7{
+            color: #333131;
+            font-family: montserrat-ExtraLight;
+            font-size: 15px;
+            font-weight: lighter;
+            padding-left:50px ;
+    
+    
+        }
+            /* styling the footer */
+        footer {
+            display: inline-block;
+            background: #fffd8c;
+            font-size: 15px;
+            font-weight: normal;
+            width: 1400px;
+            height: 200px;
+            border-radius: 30px;
+        }
+         
+        
+        /* styling the send botton */
+        button{
+            border: 0px;
+            height: 30px;
+            font-size: 20px;
+            margin-top:20px;
+            margin-bottom: 20px;
+            border-radius: 30px;
+        }
+    } 
